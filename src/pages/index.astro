@@ -1,0 +1,109 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Carta from '../components/carta.astro';
+import Image from 'astro/components/Image.astro';
+
+import '@fontsource-variable/lexend';
+---
+
+<Layout>
+		<Carta class="Content" />
+
+
+
+
+		<Image src="https://i.ibb.co/35YGddzD/Raiz.png" alt="flor" width={180} height={180} class="Raiz"/>
+		<Image src="https://i.ibb.co/XZ3zx5yz/raiz2.png" alt="flor" width={160} height={160} class="Raiz2"/>
+		<Image src="https://i.ibb.co/fdfHFpKH/raiz3.png" alt="flor" width={240} height={240} class="Raiz3"/>
+		<Image src="https://i.ibb.co/ZzfvDYHh/raiz4.png" alt="flor" width={140} height={140} class="Raiz4"/>
+
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={80} height={80} class="Estrella"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={100} height={100} class="Estrella2"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={90} height={90} class="Estrella3"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={100} height={100} class="Estrella4"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={60} height={60} class="Estrella5"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={40} height={40} class="Estrella6"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={50} height={50} class="Estrella7"/>
+		<Image src="https://i.ibb.co/8Dcw6CFT/estrella.png" alt="flor" width={30} height={30} class="Estrella8"/>
+</Layout>
+
+
+<style>
+	html,
+	body {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+		font-family: 'Lexend Variable', sans-serif;
+		background-color: #102542;
+	}
+	.Raiz {
+		position: fixed;
+		top: 0;
+		right: 0;
+		rotate: 270deg;
+	}
+	.Raiz2 {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
+	.Raiz3 {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.Raiz4 {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
+	.Estrella {
+		position: fixed;
+		bottom: 110px;
+		left: 250px;
+		rotate: 220deg;
+	}
+	.Estrella2 {
+		position: fixed;
+		top: 200px;
+		right: 150px;
+		rotate: 30deg;
+	}
+	.Estrella3 {
+		position: fixed;
+		top: 280px;
+		left: 320px;
+	}
+	.Estrella4 {
+		position: fixed;
+		bottom: 200px;	
+		right: 320px;
+		rotate: -20deg;
+	}
+	.Estrella5 {
+		position: fixed;
+		bottom: 420px;
+		left: 100px;
+		rotate: 220deg;
+	}
+	.Estrella6 {
+		position: fixed;
+		top: 360px;
+		right: 400px;
+		rotate: 80deg;
+	}
+	.Estrella7 {
+		position: fixed;
+		top: 100px;
+		left: 300px;
+		rotate: 50deg;
+	}
+	.Estrella8 {
+		position: fixed;
+		bottom: 320px;	
+		right: 100px;
+		rotate: -60deg;
+	}
+</style>

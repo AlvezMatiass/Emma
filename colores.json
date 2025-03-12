@@ -1,0 +1,20 @@
+{
+    "colores": [
+        {
+            "nombre": "Fondo",
+            "codigo": "#669BBC"
+        },
+        {
+            "nombre": "Extra",
+            "codigo": "#E2FCEF"
+        },
+        {
+            "nombre": "Letra",
+            "codigo": "#FFEFD3"
+        },
+        {
+            "nombre": "Fondo II",
+            "codigo": "#102542"
+        }
+    ]
+}
